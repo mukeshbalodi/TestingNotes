@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-28T15:32:01Z" name="Suite" finished-at="2024-04-28T15:32:28Z" duration-ms="26757">
+    <groups>
+    </groups>
+    <test started-at="2024-04-28T15:32:01Z" name="Test" finished-at="2024-04-28T15:32:28Z" duration-ms="26757">
+      <class name="Login_package.VerifyTitle">
+        <test-method signature="title()[pri:0, instance:Login_package.VerifyTitle@181e731e]" started-at="2024-04-28T21:02:15Z" name="title" finished-at="2024-04-28T21:02:15Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- Login_package.VerifyTitle -->
+      <class name="Login_package.VerifyLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login_package.VerifyLogin@6f44a157]" started-at="2024-04-28T21:02:01Z" name="setup" finished-at="2024-04-28T21:02:06Z" duration-ms="5018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login_package.VerifyTitle@181e731e]" started-at="2024-04-28T21:02:06Z" name="setup" finished-at="2024-04-28T21:02:10Z" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login_package.VerifyUrl@35645047]" started-at="2024-04-28T21:02:10Z" name="setup" finished-at="2024-04-28T21:02:15Z" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Login_package.VerifyLogin@6f44a157]" started-at="2024-04-28T21:02:15Z" name="login" finished-at="2024-04-28T21:02:21Z" duration-ms="6426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login_package.VerifyLogin@6f44a157]" started-at="2024-04-28T21:02:21Z" name="teardown" finished-at="2024-04-28T21:02:23Z" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login_package.VerifyTitle@181e731e]" started-at="2024-04-28T21:02:23Z" name="teardown" finished-at="2024-04-28T21:02:25Z" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login_package.VerifyUrl@35645047]" started-at="2024-04-28T21:02:25Z" name="teardown" finished-at="2024-04-28T21:02:28Z" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Login_package.VerifyLogin -->
+      <class name="Login_package.VerifyUrl">
+        <test-method signature="url()[pri:0, instance:Login_package.VerifyUrl@35645047]" started-at="2024-04-28T21:02:15Z" name="url" finished-at="2024-04-28T21:02:15Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+      </class> <!-- Login_package.VerifyUrl -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
