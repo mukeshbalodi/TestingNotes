@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class Login {
 	
-	WebDriver driver ;
+	WebDriver driver=null ;
 	
  
   @BeforeTest
@@ -78,7 +78,9 @@ public class Login {
   }
   @AfterTest
   public void teardown() throws InterruptedException {
-	  Thread.sleep(2000);
+	  if (driver!=null)
+	  {  driver.quit()};
+	 
   }
 
 }
